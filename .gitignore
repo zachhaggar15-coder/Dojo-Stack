@@ -1,0 +1,30 @@
+# dependencies
+node_modules/
+
+# next/vercel
+.next/
+out/
+.vercel/
+
+# production/build output
+dist/
+coverage/
+
+# env files
+.env
+.env*.local
+!.env.example
+
+# logs
+*.log
+dev-server.log
+dev-server.err
+dev-server.err.log
+launch-server.log
+launch-server.err.log
+
+# local artifacts
+artifacts/
+tsconfig.tsbuildinfo
+.Rhistory
+.DS_Store

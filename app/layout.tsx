@@ -1,10 +1,10 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import "./globals.css";
 import { SiteShell } from "@/components/layout/SiteShell";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { siteConfig } from "@/data/siteConfig";
 import { createPageMetadata, organizationSchema, websiteSchema } from "@/lib/seo";
-// To enable Vercel Analytics later, install @vercel/analytics and render <Analytics /> inside <body>.
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = createPageMetadata({
   title: siteConfig.defaultMetaTitle,
@@ -22,9 +22,8 @@ export default function RootLayout({
         <JsonLd data={organizationSchema()} />
         <JsonLd data={websiteSchema()} />
         <SiteShell>{children}</SiteShell>
-        {/* Vercel Analytics setup goes here after installing @vercel/analytics: <Analytics /> */}
+        <Analytics />
       </body>
     </html>
   );
 }
-

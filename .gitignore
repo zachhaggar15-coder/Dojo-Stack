@@ -28,3 +28,4 @@ artifacts/
 tsconfig.tsbuildinfo
 .Rhistory
 .DS_Store
+.vercel

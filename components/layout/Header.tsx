@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { Menu, Rows3 } from "lucide-react";
 import { siteConfig } from "@/data/siteConfig";
 import { Container } from "@/components/ui/Container";

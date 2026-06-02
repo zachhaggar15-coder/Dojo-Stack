@@ -1,5 +1,6 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { AffiliateNotice } from "@/components/affiliate/AffiliateNotice";
+import { BrandLogo } from "@/components/layout/BrandLogo";
 import { Container } from "@/components/ui/Container";
 import { siteConfig } from "@/data/siteConfig";
 
@@ -8,7 +9,7 @@ export function Footer() {
     <footer className="border-t border-zinc-200 bg-zinc-950 text-zinc-200">
       <Container className="grid gap-8 py-10 lg:grid-cols-[1.2fr_0.8fr]">
         <div>
-          <p className="text-base font-semibold text-white">{siteConfig.siteName}</p>
+          <BrandLogo variant="dark" />
           <p className="mt-3 max-w-2xl text-sm leading-6 text-zinc-400">{siteConfig.tagline}</p>
           <AffiliateNotice compact variant="footer" className="mt-5 max-w-3xl" />
         </div>

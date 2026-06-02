@@ -45,6 +45,10 @@ export function createPageMetadata({
       title: fullTitle,
       description,
     },
+    icons: {
+      icon: "/dojostack-mark.png",
+      apple: "/dojostack-mark.png",
+    },
     robots: shouldNoIndex ? { index: false, follow: false } : undefined,
   };
 }

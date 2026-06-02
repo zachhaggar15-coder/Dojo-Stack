@@ -5,7 +5,10 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { siteConfig } from "@/data/siteConfig";
 import { createPageMetadata, organizationSchema, websiteSchema } from "@/lib/seo";
 // To enable Vercel Analytics later, install @vercel/analytics and render <Analytics /> inside <body>.
-const impactVerificationMeta = { value: "acecb91c-ece9-4e07-a885-c0eaf54fc8b3" };
+const impactVerificationMeta = {
+  value: siteConfig.verification.impactSiteVerification,
+  content: siteConfig.verification.impactSiteVerification,
+};
 
 export const metadata: Metadata = createPageMetadata({
   title: siteConfig.defaultMetaTitle,
@@ -31,4 +34,3 @@ export default function RootLayout({
     </html>
   );
 }
-

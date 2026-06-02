@@ -20,14 +20,13 @@ import { AffiliateDisclosureInline } from "@/components/ui/AffiliateDisclosureIn
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { siteConfig } from "@/data/siteConfig";
-import { createPageMetadata, shouldNoIndexSoftware } from "@/lib/seo";
+import { createPageMetadata } from "@/lib/seo";
 import { getAllSoftware } from "@/lib/software";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Martial Arts Gym Software Comparison",
   description: siteConfig.defaultMetaDescription,
   path: "/",
-  noIndex: getAllSoftware().every(shouldNoIndexSoftware),
 });
 const problems = [
   ["Missed payments", "Billing gaps and failed collections can turn into weekly admin work."],
@@ -311,6 +310,3 @@ export default function HomePage() {
     </>
   );
 }
-
-
-

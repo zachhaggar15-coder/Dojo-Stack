@@ -49,6 +49,9 @@ export function createPageMetadata({
       icon: "/dojostack-mark.png",
       apple: "/dojostack-mark.png",
     },
+    other: {
+      "impact-site-verification": siteConfig.verification.impactSiteVerification,
+    },
     robots: shouldNoIndex ? { index: false, follow: false } : undefined,
   };
 }

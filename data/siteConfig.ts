@@ -7,11 +7,17 @@ const domain = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dojostack.co.uk";
 // Public contact mailbox used on the contact page and Organization schema.
 const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "dojostack@protonmail.com";
 
+// Impact.com site verification token. Update if Impact issues a replacement token.
+const impactSiteVerification = "acecb91c-ece9-4e07-a885-c0eaf54fc8b3";
+
 export const siteConfig = {
   siteName,
   tagline: "Find the right software for your martial arts gym",
   domain,
   contactEmail,
+  verification: {
+    impactSiteVerification,
+  },
   defaultMetaTitle: `${siteName} | Martial Arts Gym Software Comparison`,
   defaultMetaDescription:
     "Compare gym management software for BJJ, MMA, boxing, karate, taekwondo, and martial arts schools. Find tools for payments, booking, attendance, waivers, and member management.",

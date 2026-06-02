@@ -18,6 +18,7 @@ export default function QuizPage() {
   return (
     <Container className="space-y-8 py-12">
       <SectionHeading
+          showLogo
         eyebrow="Fit quiz"
         title="Find software that fits how your gym actually runs"
         description="This quiz uses static software data and transparent scoring rules. It does not collect email addresses, create accounts, call an AI API, or store personal data."

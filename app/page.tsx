@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BrandLogo } from "@/components/layout/BrandLogo";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -102,6 +103,7 @@ export default function HomePage() {
       <section className="border-b border-zinc-200 bg-white">
         <Container className="grid gap-10 py-12 lg:grid-cols-[minmax(0,1fr)_24rem] lg:py-16">
           <div className="max-w-3xl">
+            <BrandLogo className="mb-6 text-sm" />
             <p className="text-sm font-semibold uppercase tracking-wide text-zinc-500">Software comparison for gym owners</p>
             <h1 className="mt-4 text-4xl font-semibold tracking-normal text-zinc-950 sm:text-5xl">
               Find the Right Software for Your Martial Arts Gym

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
@@ -20,6 +20,7 @@ export default function ArticlesPage() {
   return (
     <Container className="space-y-8 py-12">
       <SectionHeading
+          showLogo
         eyebrow="Supporting content"
         title="Controlled article drafts"
         description="These articles support commercial decision pages. Drafts are noindexed until manually reviewed and intentionally published."

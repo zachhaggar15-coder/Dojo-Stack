@@ -1,6 +1,7 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BrandLogo } from "@/components/layout/BrandLogo";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
@@ -77,6 +78,7 @@ export default async function ArticlePage({ params }: PageProps) {
       <JsonLd data={faqSchema} />
       <Container className="space-y-10 py-12">
         <section className="max-w-3xl">
+<BrandLogo className="mb-6 text-sm" />
           <div className="flex flex-wrap gap-2">
             <Badge tone={article.status === "published" ? "green" : "amber"}>{article.status}</Badge>
             {article.needsManualReview ? <Badge tone="amber">Needs manual review</Badge> : null}

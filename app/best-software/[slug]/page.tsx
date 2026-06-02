@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AffiliateNotice } from "@/components/affiliate/AffiliateNotice";
+import { BrandLogo } from "@/components/layout/BrandLogo";
 import { TrackedAffiliateLink } from "@/components/analytics/TrackedAffiliateLink";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Badge } from "@/components/ui/Badge";
@@ -285,6 +286,7 @@ export default async function BestSoftwarePage({ params }: PageProps) {
       <JsonLd data={itemListSchema} />
 
       <section className="max-w-4xl">
+<BrandLogo className="mb-6 text-sm" />
         <div className="flex flex-wrap gap-2">
           <Badge tone="green">Best software guide</Badge>
           {page.publishStatus !== "published" ? <Badge tone="amber">Needs verification before indexing</Badge> : null}
@@ -487,6 +489,3 @@ export default async function BestSoftwarePage({ params }: PageProps) {
     </Container>
   );
 }
-
-
-

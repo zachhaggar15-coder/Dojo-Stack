@@ -15,6 +15,7 @@ export default function CompareIndexPage() {
   return (
     <Container className="space-y-8 py-12">
       <SectionHeading
+          showLogo
         eyebrow="Compare"
         title="Side-by-side software comparisons"
         description="Comparison pages pull from static software data and avoid unsupported claims until each vendor record is verified."

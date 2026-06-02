@@ -16,6 +16,7 @@ export default function PricingCalculatorPage() {
   return (
     <Container className="space-y-8 py-12">
       <SectionHeading
+          showLogo
         eyebrow="Calculator"
         title="Estimate a realistic software budget band"
         description="Use this as a planning tool for martial arts gym software costs. It estimates broad GBP bands, avoids invented provider pricing, and reminds you to verify current vendor prices."

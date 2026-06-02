@@ -14,6 +14,7 @@ export default function AboutPage() {
   return (
     <Container className="space-y-6 py-12">
       <SectionHeading
+          showLogo
         eyebrow="About"
         title="A practical software comparison tool for martial arts businesses"
         description={`${siteConfig.siteName} is an anonymous software comparison project focused on decision support rather than generic blog content.`}

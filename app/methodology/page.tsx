@@ -48,6 +48,7 @@ export default function MethodologyPage() {
   return (
     <Container className="space-y-8 py-12">
       <SectionHeading
+          showLogo
         eyebrow="Methodology"
         title="How software is assessed"
         description={`${siteConfig.siteName} is designed as a decision-support platform for martial arts gym owners, not a generic blog or a collection of fake reviews.`}

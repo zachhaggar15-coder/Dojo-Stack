@@ -35,6 +35,7 @@ export default function ContactPage() {
   return (
     <Container className="space-y-8 py-12">
       <SectionHeading
+          showLogo
         eyebrow="Contact"
         title="Send corrections, provider updates, or general questions"
         description="Use the contact email below. Do not include personal member data or confidential account information."

@@ -6,9 +6,10 @@ import { cn } from "@/lib/formatting";
 type BrandLogoProps = {
   className?: string;
   variant?: "light" | "dark";
+  priority?: boolean;
 };
 
-export function BrandLogo({ className, variant = "light" }: BrandLogoProps) {
+export function BrandLogo({ className, variant = "light", priority = false }: BrandLogoProps) {
   const isDark = variant === "dark";
 
   return (
@@ -32,7 +33,7 @@ export function BrandLogo({ className, variant = "light" }: BrandLogoProps) {
           width={96}
           height={78}
           className="h-full w-full object-contain"
-          priority
+          priority={priority}
         />
       </span>
       <span>{siteConfig.siteName}</span>

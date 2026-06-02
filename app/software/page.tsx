@@ -33,6 +33,7 @@ export default function SoftwareDirectoryPage() {
       <JsonLd data={itemListSchema} />
       <Container className="space-y-8 py-12">
         <SectionHeading
+          showLogo
           eyebrow="Software directory"
           title="Browse martial arts gym software"
           description="Search and filter software options for BJJ, MMA, boxing, karate, taekwondo, judo, and general martial arts schools. Feature support and pricing notes stay cautious where manual verification is still needed."

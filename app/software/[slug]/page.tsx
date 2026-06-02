@@ -1,8 +1,9 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowRight, ArrowUpRight, CheckCircle2, HelpCircle, XCircle } from "lucide-react";
 import { AffiliateNotice } from "@/components/affiliate/AffiliateNotice";
+import { BrandLogo } from "@/components/layout/BrandLogo";
 import { TrackedAffiliateLink } from "@/components/analytics/TrackedAffiliateLink";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Badge } from "@/components/ui/Badge";
@@ -146,6 +147,7 @@ export default async function SoftwareDetailPage({ params }: PageProps) {
       <Container className="space-y-10 py-12">
         <section className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem]">
           <div>
+<BrandLogo className="mb-6 text-sm" />
             <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">Software review</p>
             <h1 className="mt-3 text-4xl font-semibold tracking-normal text-zinc-950 sm:text-5xl">{software.name}</h1>
             <p className="mt-5 text-lg leading-8 text-zinc-600">{software.shortDescription}</p>
@@ -437,12 +439,3 @@ function createBreadcrumbSchema(software: Software) {
     ],
   };
 }
-
-
-
-
-
-
-
-
-

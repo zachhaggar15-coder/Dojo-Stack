@@ -1,8 +1,9 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowUpRight, CheckCircle2, HelpCircle, XCircle } from "lucide-react";
 import { AffiliateNotice } from "@/components/affiliate/AffiliateNotice";
+import { BrandLogo } from "@/components/layout/BrandLogo";
 import { TrackedAffiliateLink } from "@/components/analytics/TrackedAffiliateLink";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { Badge } from "@/components/ui/Badge";
@@ -105,6 +106,7 @@ export default async function ComparisonDetailPage({ params }: PageProps) {
       <JsonLd data={faqSchema} />
       <Container className="space-y-10 py-12">
         <section className="max-w-4xl">
+<BrandLogo className="mb-6 text-sm" />
           <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">Software comparison</p>
           <div className="mt-3 flex flex-wrap items-center gap-3">
             <h1 className="text-4xl font-semibold tracking-normal text-zinc-950 sm:text-5xl">
@@ -423,5 +425,3 @@ function createFaqs(page: ComparisonPage, softwareA: Software, softwareB: Softwa
     },
   ];
 }
-
-

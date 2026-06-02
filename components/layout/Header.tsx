@@ -1,19 +1,15 @@
 import Link from "next/link";
-import { Menu, Rows3 } from "lucide-react";
-import { siteConfig } from "@/data/siteConfig";
+import { Menu } from "lucide-react";
+import { BrandLogo } from "@/components/layout/BrandLogo";
 import { Container } from "@/components/ui/Container";
 import { CTAButton } from "@/components/ui/CTAButton";
+import { siteConfig } from "@/data/siteConfig";
 
 export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-zinc-200 bg-white/95 backdrop-blur">
       <Container className="flex min-h-16 items-center justify-between gap-4 py-3">
-        <Link href="/" className="flex items-center gap-2 text-base font-semibold text-zinc-950">
-          <span className="flex size-9 items-center justify-center rounded-md border border-zinc-200 bg-white text-zinc-900">
-            <Rows3 className="size-5" aria-hidden="true" />
-          </span>
-          <span>{siteConfig.siteName}</span>
-        </Link>
+        <BrandLogo className="shrink-0" priority />
 
         <nav className="hidden items-center gap-1 lg:flex" aria-label="Primary navigation">
           {siteConfig.navigationLinks.map((item) => (

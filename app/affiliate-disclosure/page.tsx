@@ -35,6 +35,7 @@ export default function AffiliateDisclosurePage() {
   return (
     <Container className="space-y-8 py-12">
       <SectionHeading
+          showLogo
         eyebrow="Disclosure"
         title="Affiliate and referral disclosure"
         description="A plain-English explanation of how provider links may work on this site."

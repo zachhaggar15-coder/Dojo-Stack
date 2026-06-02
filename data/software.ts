@@ -135,11 +135,11 @@ export const software: Software[] = [
     name: "Gymdesk",
     slug: "gymdesk",
     normalWebsiteUrl: "https://gymdesk.com",
-    affiliateUrl: null,
-    affiliateStatus: "uncertain_after_trial",
+    affiliateUrl: "https://app.gymdesk.com/a/AvLyE",
+    affiliateStatus: "verified",
     affiliateAccessNotes:
-      "Referral system is accessible during a free trial, but access after the 30-day trial has not been verified. Add a real referral URL only after confirming ongoing access and terms.",
-    affiliateLastChecked: "2026-05-27",
+      "Affiliate URL provided by the site owner. Commission terms are not published because they have not been provided.",
+    affiliateLastChecked: "2026-06-02",
     shortDescription: "Gym management software that may fit small and growing martial arts schools.",
     longDescription:
       "Gymdesk is included as a martial arts software candidate because it appears relevant for memberships, classes, payments, and day-to-day gym administration. All detailed feature and pricing claims still need source verification before publication.",
@@ -164,9 +164,8 @@ export const software: Software[] = [
     },
     scores: placeholderScores({ martialArtsFit: 8, easeOfUse: 7, setupComplexity: 5, automation: 6, valueForMoney: 6, overall: 7 }),
     pros: ["Appears relevant to martial arts and fitness gym operations", "Appears relevant for core gym administration workflows"],
-    cons: ["Referral access after trial is uncertain", "Exact feature support and current pricing need verification"],
+    cons: ["Exact feature support and current pricing need verification"],
     uncertaintyNotes: [
-      "Current provider-link and account-access details should be checked again before launch.",
       "Belt tracking, waiver, mobile app, and marketing automation details need manual verification.",
       ...verificationNotes,
     ],

@@ -17,18 +17,18 @@ export type AffiliateEntry = {
 };
 
 type AffiliateEntryInput = Omit<AffiliateEntry, "destinationUrl" | "commissionType" | "commissionNotes" | "lastChecked"> &
-  Partial<Pick<AffiliateEntry, "commissionType" | "commissionNotes" | "lastChecked">>;
+  Partial<Pick<AffiliateEntry, "destinationUrl" | "commissionType" | "commissionNotes" | "lastChecked">>;
 
 const makeAffiliateEntry = ({
+  destinationUrl = null,
   commissionType = "unknown",
   commissionNotes = "Commission details have not been verified. Do not publish commission claims until terms are confirmed.",
   lastChecked = "2026-05-27",
   ...entry
 }: AffiliateEntryInput): AffiliateEntry => ({
   ...entry,
-  // Paste the real affiliate/referral URL for this provider here later.
-  // Keep this null until you have a verified, usable link from the provider or affiliate dashboard.
-  destinationUrl: null,
+  // Paste real affiliate/referral URLs into each provider entry only after verification.
+  destinationUrl,
   commissionType,
   commissionNotes,
   lastChecked,
@@ -39,12 +39,16 @@ export const affiliateLinks: Record<string, AffiliateEntry> = {
     softwareId: "gymdesk",
     slug: "gymdesk",
     displayName: "Gymdesk",
+    destinationUrl: "https://app.gymdesk.com/a/AvLyE",
     fallbackUrl: "https://gymdesk.com",
-    affiliateStatus: "uncertain_after_trial",
+    affiliateStatus: "verified",
     accessType: "free_trial_access",
+    commissionType: "unknown",
+    commissionNotes: "Affiliate URL provided by the site owner. Commission terms have not been provided, so do not publish commission claims.",
+    lastChecked: "2026-06-02",
     riskNotes: [
-      "Referral access is visible during the free trial, but ongoing access after 30 days has not been verified.",
-      "Do not mark as verified until a real referral URL and post-trial access terms are confirmed.",
+      "Affiliate URL provided by the site owner on 2026-06-02.",
+      "Commission terms and long-term dashboard access still require manual verification before publishing monetisation details.",
     ],
   }),
   "zen-planner": makeAffiliateEntry({

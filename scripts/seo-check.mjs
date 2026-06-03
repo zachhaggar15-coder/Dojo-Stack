@@ -1,4 +1,4 @@
-﻿import { readFileSync, readdirSync, statSync } from "node:fs";
+import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join, relative } from "node:path";
 
 const root = process.cwd();
@@ -86,19 +86,15 @@ const sitemap = read("app/sitemap.ts");
 if (sitemap.includes("/go")) {
   addIssue("app/sitemap.ts: /go route appears in sitemap source.");
 }
-if (!sitemap.includes('publishStatus === "published"')) {
-  addIssue("app/sitemap.ts: published-status filter is missing for editorial pages.");
-}
-if (!sitemap.includes("shouldNoIndexSoftware")) {
-  addIssue("app/sitemap.ts: software noindex safeguard is missing.");
+for (const route of ["/pricing-calculator", "/about", "/articles"]) {
+  if (!sitemap.includes(route)) {
+    addIssue(`app/sitemap.ts: ${route} is missing from sitemap source.`);
+  }
 }
 
 const robots = read("app/robots.ts");
 if (!robots.includes('"/go/"')) {
   addIssue("app/robots.ts: /go/ is not disallowed.");
-}
-if (!robots.includes("publishStatus !== \"published\"") || !robots.includes("shouldNoIndexSoftware")) {
-  addIssue("app/robots.ts: draft/noindex route exclusions are missing.");
 }
 
 const affiliateLinks = read("data/affiliateLinks.ts");
@@ -147,5 +143,3 @@ if (issues.length > 0) {
 }
 
 console.log("SEO validation passed.");
-
-

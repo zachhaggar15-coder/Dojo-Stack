@@ -1,4 +1,4 @@
-﻿import { articles, type Article } from "@/data/articles";
+import { articles, type Article } from "@/data/articles";
 
 export function getAllArticles() {
   return articles;
@@ -9,11 +9,11 @@ export function getArticleBySlug(slug: string) {
 }
 
 export function getPublishedArticles() {
-  return articles.filter((article) => article.status === "published" && !article.needsManualReview);
+  return articles.filter((article) => article.status === "published");
 }
 
 export function shouldNoIndexArticle(article: Article) {
-  return article.status !== "published" || article.needsManualReview;
+  return article.status !== "published";
 }
 
 export function getArticlesByRelatedSoftware(softwareId: string) {

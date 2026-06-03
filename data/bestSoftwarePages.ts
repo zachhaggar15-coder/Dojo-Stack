@@ -66,7 +66,7 @@ export const bestSoftwarePages: BestSoftwarePage[] = [
           "No. The shortlist is ordered around likely operational fit, feature coverage, value, transparency, and editable software scores. Affiliate availability does not determine placement.",
       },
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -109,7 +109,7 @@ export const bestSoftwarePages: BestSoftwarePage[] = [
           "Sometimes, especially for hybrid facilities. Traditional martial arts workflows, rank progression, or youth programs may need additional verification.",
       },
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -152,7 +152,7 @@ export const bestSoftwarePages: BestSoftwarePage[] = [
           "Often yes, but check whether the platform handles memberships, drop-ins, trials, and coach-led classes in the way your gym operates.",
       },
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -190,12 +190,12 @@ export const bestSoftwarePages: BestSoftwarePage[] = [
           "Not necessarily. A simpler tool that your team actually uses may be a better fit than a larger system with features you do not need.",
       },
       {
-        question: "Why are some pages marked cautious or noindex?",
+        question: "Why are some pages marked cautious?",
         answer:
           "Many provider details still need manual verification. The page can be useful as a research scaffold before it is ready for confident public ranking.",
       },
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -238,7 +238,7 @@ export const bestSoftwarePages: BestSoftwarePage[] = [
           "Fees matter, but they should be weighed against admin time, reliability, member experience, and whether the platform fits the rest of your gym workflow.",
       },
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -281,7 +281,7 @@ export const bestSoftwarePages: BestSoftwarePage[] = [
           "Check waitlists, cancellation windows, capacity limits, attendance connection, mobile experience, and whether recurring memberships can book the right classes.",
       },
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -324,7 +324,7 @@ export const bestSoftwarePages: BestSoftwarePage[] = [
           "For many martial arts schools, yes. If attendance influences eligibility or progression, verify the provider's rank or progression workflow before choosing.",
       },
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -367,7 +367,7 @@ export const bestSoftwarePages: BestSoftwarePage[] = [
           "When forms, memberships, and trial attendance live together, staff spend less time chasing paperwork and are less likely to miss important steps.",
       },
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
 ];

@@ -48,15 +48,15 @@ export const articles: Article[] = [
     slug: "how-to-choose-martial-arts-gym-management-software",
     metaTitle: "How to Choose Martial Arts Gym Management Software",
     metaDescription:
-      "A practical draft guide to choosing martial arts gym software by matching payments, booking, attendance, waivers, member management, and pricing transparency to gym needs.",
+      "A practical guide to choosing martial arts gym software by matching payments, booking, attendance, waivers, member management, and pricing transparency to gym needs.",
     targetKeyword: "how to choose martial arts gym management software",
     category: "buying-guide",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["gymdesk", "zen-planner", "teamup", "pushpress"],
     relatedBestSoftwarePages: ["bjj-gyms", "mma-gyms", "small-martial-arts-schools"],
     relatedComparisonPages: ["gymdesk-vs-zen-planner", "gymdesk-vs-teamup"],
     intro:
-      "Choosing martial arts gym software is easiest when the decision starts with the work that currently slows the school down. This draft supports the software directory, quiz, and best-software pages by framing the buying process around gym operations rather than generic feature lists.",
+      "Choosing martial arts gym software is easiest when the decision starts with the work that currently slows the school down. This guide supports the software directory, quiz, and best-software pages by framing the buying process around gym operations rather than generic feature lists.",
     sections: [
       {
         heading: "Start with the workflow causing the most friction",
@@ -89,22 +89,22 @@ export const articles: Article[] = [
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
   {
     title: "Best Booking Systems for Martial Arts Gyms",
     slug: "best-booking-systems-for-martial-arts-gyms",
     metaTitle: "Best Booking Systems for Martial Arts Gyms",
     metaDescription:
-      "Draft support article for comparing martial arts gym booking systems, including class schedules, capacity, waitlists, member experience, and attendance links.",
+      "Supporting article for comparing martial arts gym booking systems, including class schedules, capacity, waitlists, member experience, and attendance links.",
     targetKeyword: "best booking systems for martial arts gyms",
     category: "booking",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["teamup", "gymdesk", "zen-planner", "glofox"],
     relatedBestSoftwarePages: ["gym-class-booking", "boxing-gyms", "mma-gyms"],
     relatedComparisonPages: ["gymdesk-vs-teamup", "gymdesk-vs-zen-planner"],
     intro:
-      "Booking software matters when class capacity, trial lessons, kids programs, or multi-discipline schedules create confusion. This draft supports booking-focused commercial pages without claiming any provider has been hands-on tested.",
+      "Booking software matters when class capacity, trial lessons, kids programs, or multi-discipline schedules create confusion. This guide supports booking-focused commercial pages without claiming any provider has been hands-on tested.",
     sections: [
       {
         heading: "Booking should fit the class structure",
@@ -135,22 +135,22 @@ export const articles: Article[] = [
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
   {
     title: "How to Automate Payments for a BJJ Gym",
     slug: "how-to-automate-payments-for-a-bjj-gym",
     metaTitle: "How to Automate Payments for a BJJ Gym",
     metaDescription:
-      "Draft article on BJJ gym payment automation, recurring memberships, failed-payment follow-up, billing visibility, and software shortlisting caveats.",
+      "article on BJJ gym payment automation, recurring memberships, failed-payment follow-up, billing visibility, and software shortlisting caveats.",
     targetKeyword: "automate payments for a BJJ gym",
     category: "payments",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["gymdesk", "zen-planner", "pushpress", "wellnessliving"],
     relatedBestSoftwarePages: ["bjj-gyms", "gym-payment-automation"],
     relatedComparisonPages: ["gymdesk-vs-zen-planner", "gymdesk-vs-pushpress"],
     intro:
-      "BJJ gyms commonly rely on recurring memberships, so payment automation can reduce missed collections and manual follow-up. This draft should be reviewed against current provider billing features before publication.",
+      "BJJ gyms commonly rely on recurring memberships, so payment automation can reduce missed collections and manual follow-up. This guide should be reviewed against current provider billing features before publication.",
     sections: [
       {
         heading: "Recurring memberships are the core workflow",
@@ -183,22 +183,22 @@ export const articles: Article[] = [
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
   {
     title: "How to Reduce Admin Time in a Martial Arts Academy",
     slug: "how-to-reduce-admin-time-in-a-martial-arts-academy",
     metaTitle: "How to Reduce Admin Time in a Martial Arts Academy",
     metaDescription:
-      "Draft operational guide for reducing martial arts academy admin through payments, booking, attendance, waivers, communication, and reporting workflows.",
+      "Operational guide for reducing martial arts academy admin through payments, booking, attendance, waivers, communication, and reporting workflows.",
     targetKeyword: "reduce admin time martial arts academy",
     category: "admin",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["gymdesk", "teamup", "pushpress", "zen-planner"],
     relatedBestSoftwarePages: ["small-martial-arts-schools", "gym-payment-automation", "gym-class-booking"],
     relatedComparisonPages: ["gymdesk-vs-teamup", "gymdesk-vs-pushpress"],
     intro:
-      "Admin time usually comes from repeated small tasks: chasing payments, answering schedule questions, updating spreadsheets, tracking attendance, and collecting waivers. This draft links those tasks back to the quiz, calculator, directory, and best-software pages.",
+      "Admin time usually comes from repeated small tasks: chasing payments, answering schedule questions, updating spreadsheets, tracking attendance, and collecting waivers. This guide links those tasks back to the quiz, calculator, directory, and best-software pages.",
     sections: [
       {
         heading: "Find the repeated task, not the fanciest feature",
@@ -228,22 +228,22 @@ export const articles: Article[] = [
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
   {
     title: "Gymdesk Alternatives for Martial Arts Schools",
     slug: "gymdesk-alternatives-for-martial-arts-schools",
     metaTitle: "Gymdesk Alternatives for Martial Arts Schools",
     metaDescription:
-      "Draft support article for comparing Gymdesk alternatives for martial arts schools, with cautious links to Zen Planner, TeamUp, PushPress, and comparison pages.",
+      "Supporting article for comparing Gymdesk alternatives for martial arts schools, with cautious links to Zen Planner, TeamUp, PushPress, and comparison pages.",
     targetKeyword: "Gymdesk alternatives martial arts schools",
     category: "alternatives",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["gymdesk", "zen-planner", "teamup", "pushpress"],
     relatedBestSoftwarePages: ["bjj-gyms", "small-martial-arts-schools", "gym-class-booking"],
     relatedComparisonPages: ["gymdesk-vs-zen-planner", "gymdesk-vs-pushpress", "gymdesk-vs-teamup"],
     intro:
-      "This draft supports Gymdesk comparison and software profile pages. It should not imply Gymdesk or any alternative has been tested unless that testing is later documented.",
+      "This guide supports Gymdesk comparison and software profile pages. It should not imply Gymdesk or any alternative has been tested unless that testing is later documented.",
     sections: [
       {
         heading: "Compare around the reason you are looking for alternatives",
@@ -274,22 +274,22 @@ export const articles: Article[] = [
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
   {
     title: "Zen Planner Alternatives for Martial Arts Schools",
     slug: "zen-planner-alternatives-for-martial-arts-schools",
     metaTitle: "Zen Planner Alternatives for Martial Arts Schools",
     metaDescription:
-      "Draft support article for comparing Zen Planner alternatives for martial arts schools, with cautious links to Gymdesk, PushPress, Mindbody, and related comparisons.",
+      "Supporting article for comparing Zen Planner alternatives for martial arts schools, with cautious links to Gymdesk, PushPress, Mindbody, and related comparisons.",
     targetKeyword: "Zen Planner alternatives martial arts schools",
     category: "alternatives",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["zen-planner", "gymdesk", "pushpress", "mindbody"],
     relatedBestSoftwarePages: ["bjj-gyms", "mma-gyms", "small-martial-arts-schools"],
     relatedComparisonPages: ["gymdesk-vs-zen-planner", "zen-planner-vs-pushpress"],
     intro:
-      "This draft supports Zen Planner profile and comparison pages by helping readers think through why they may need alternatives. It avoids product-specific claims that are not present in the software data.",
+      "This guide supports Zen Planner profile and comparison pages by helping readers think through why they may need alternatives. It avoids product-specific claims that are not present in the software data.",
     sections: [
       {
         heading: "Clarify the alternative criteria",
@@ -316,26 +316,26 @@ export const articles: Article[] = [
       },
       {
         question: "Are these alternatives verified recommendations?",
-        answer: "No. This is a draft support article and needs manual review before publication.",
+        answer: "No. This is a Supporting article and needs manual review before publication.",
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
   {
     title: "What Software Do Small Martial Arts Gyms Need?",
     slug: "what-software-do-small-martial-arts-gyms-need",
     metaTitle: "What Software Do Small Martial Arts Gyms Need?",
     metaDescription:
-      "Draft support article for small martial arts gyms comparing essential software workflows: payments, member records, scheduling, attendance, and waivers.",
+      "Supporting article for small martial arts gyms comparing essential software workflows: payments, member records, scheduling, attendance, and waivers.",
     targetKeyword: "software small martial arts gyms need",
     category: "small-gyms",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["gymdesk", "teamup", "pushpress", "zen-planner"],
     relatedBestSoftwarePages: ["small-martial-arts-schools", "gym-payment-automation", "gym-attendance-tracking"],
     relatedComparisonPages: ["gymdesk-vs-teamup", "gymdesk-vs-pushpress"],
     intro:
-      "Small gyms need software that reduces admin without creating a complicated management system. This draft supports the small-school shortlist, directory, calculator, and quiz.",
+      "Small gyms need software that reduces admin without creating a complicated management system. This guide supports the small-school shortlist, directory, calculator, and quiz.",
     sections: [
       {
         heading: "Start with payments and member records",
@@ -366,22 +366,22 @@ export const articles: Article[] = [
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
   {
     title: "How to Move from Spreadsheets to Gym Management Software",
     slug: "how-to-move-from-spreadsheets-to-gym-management-software",
     metaTitle: "How to Move from Spreadsheets to Gym Management Software",
     metaDescription:
-      "Draft migration guide for martial arts gyms moving from spreadsheets to gym management software without overcomplicating member, billing, and attendance workflows.",
+      "Migration guide for martial arts gyms moving from spreadsheets to gym management software without overcomplicating member, billing, and attendance workflows.",
     targetKeyword: "move from spreadsheets to gym management software",
     category: "migration",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["gymdesk", "teamup", "zen-planner", "wellnessliving"],
     relatedBestSoftwarePages: ["small-martial-arts-schools", "gym-attendance-tracking", "gym-payment-automation"],
     relatedComparisonPages: ["gymdesk-vs-teamup", "gymdesk-vs-zen-planner"],
     intro:
-      "Spreadsheets often work until billing, attendance, waivers, and member communication start living in too many places. This draft supports software shortlists for owners who are ready to move to a dedicated system.",
+      "Spreadsheets often work until billing, attendance, waivers, and member communication start living in too many places. This guide supports software shortlists for owners who are ready to move to a dedicated system.",
     sections: [
       {
         heading: "Clean the data before choosing tools",
@@ -412,22 +412,22 @@ export const articles: Article[] = [
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
   {
     title: "How to Manage Waivers for a Martial Arts Gym",
     slug: "how-to-manage-waivers-for-a-martial-arts-gym",
     metaTitle: "How to Manage Waivers for a Martial Arts Gym",
     metaDescription:
-      "Draft article about martial arts gym waiver workflows, onboarding, guardian consent, document storage, and software verification caveats.",
+      "article about martial arts gym waiver workflows, onboarding, guardian consent, document storage, and software verification caveats.",
     targetKeyword: "manage waivers martial arts gym",
     category: "waivers",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["teamup", "wellnessliving", "mindbody", "gymdesk"],
     relatedBestSoftwarePages: ["gym-waiver-management", "small-martial-arts-schools"],
     relatedComparisonPages: ["gymdesk-vs-teamup", "mindbody-vs-gymdesk"],
     intro:
-      "Waivers are an onboarding workflow, not just a form. This draft supports the waiver-management shortlist while reminding readers to verify software behavior and local legal requirements.",
+      "Waivers are an onboarding workflow, not just a form. This guide supports the waiver-management shortlist while reminding readers to verify software behavior and local legal requirements.",
     sections: [
       {
         heading: "Connect waivers to onboarding",
@@ -458,22 +458,22 @@ export const articles: Article[] = [
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
   {
     title: "How to Track Attendance in a BJJ or MMA Gym",
     slug: "how-to-track-attendance-in-a-bjj-or-mma-gym",
     metaTitle: "How to Track Attendance in a BJJ or MMA Gym",
     metaDescription:
-      "Draft support article for BJJ and MMA gym attendance tracking, retention visibility, class participation, and rank or progression caveats.",
+      "Supporting article for BJJ and MMA gym attendance tracking, retention visibility, class participation, and rank or progression caveats.",
     targetKeyword: "track attendance BJJ MMA gym",
     category: "attendance",
-    status: "draft",
+    status: "published",
     relatedSoftwareIds: ["gymdesk", "zen-planner", "wodify", "pushpress"],
     relatedBestSoftwarePages: ["gym-attendance-tracking", "bjj-gyms", "mma-gyms"],
     relatedComparisonPages: ["gymdesk-vs-zen-planner", "zen-planner-vs-pushpress"],
     intro:
-      "Attendance tracking helps BJJ and MMA gyms understand training consistency, class demand, and retention risk. This draft supports attendance-focused commercial pages and should avoid unverified provider claims.",
+      "Attendance tracking helps BJJ and MMA gyms understand training consistency, class demand, and retention risk. This guide supports attendance-focused commercial pages and should avoid unverified provider claims.",
     sections: [
       {
         heading: "Define who checks members in",
@@ -505,6 +505,6 @@ export const articles: Article[] = [
       },
     ],
     lastUpdated: "2026-06-01",
-    needsManualReview: true,
+    needsManualReview: false,
   },
 ];

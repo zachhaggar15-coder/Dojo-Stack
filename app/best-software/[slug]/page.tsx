@@ -148,7 +148,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: page.metaTitle,
     description: page.metaDescription,
     path: `/best-software/${page.slug}`,
-    noIndex: page.publishStatus !== "published",
   });
 }
 

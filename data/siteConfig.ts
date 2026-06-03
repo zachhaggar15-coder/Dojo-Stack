@@ -10,11 +10,23 @@ const contactEmail = process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "dojostack@protonm
 // Impact.com site verification token. Update if Impact issues a replacement token.
 const impactSiteVerification = "acecb91c-ece9-4e07-a885-c0eaf54fc8b3";
 
+// Logo and icon assets. Update these paths if the final logo files change.
+const brandAssets = {
+  logo: "/dojostack-logo.png",
+  mark: "/dojostack-mark.png",
+  favicon: "/favicon-48x48.png",
+  icon192: "/icon-192.png",
+  icon512: "/icon-512.png",
+  appleTouchIcon: "/apple-touch-icon.png",
+  openGraphImage: "/og-image.png",
+} as const;
+
 export const siteConfig = {
   siteName,
   tagline: "Find the right software for your martial arts gym",
   domain,
   contactEmail,
+  brandAssets,
   verification: {
     impactSiteVerification,
   },

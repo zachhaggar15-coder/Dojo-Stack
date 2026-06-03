@@ -16,7 +16,7 @@ import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { featureLabels, type FeatureSupport, type Software, type SoftwareFeatureKey } from "@/data/software";
 import { siteConfig } from "@/data/siteConfig";
-import { absoluteUrl, createPageMetadata, shouldNoIndexSoftware } from "@/lib/seo";
+import { absoluteUrl, createPageMetadata } from "@/lib/seo";
 import { getAllSoftware, getComparisonPagesForSoftware, getSoftwareBySlug } from "@/lib/software";
 
 const featureSections: Array<{
@@ -108,7 +108,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: `${item.name} Review for Martial Arts Gyms`,
     description: `${item.name} review for martial arts gym owners: features, pricing notes, best-fit use cases, limitations, alternatives, and verification notes.`,
     path: `/software/${item.slug}`,
-    noIndex: shouldNoIndexSoftware(item),
     type: "article",
   });
 }

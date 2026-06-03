@@ -8,7 +8,6 @@ export const metadata: Metadata = createPageMetadata({
   title: "About",
   description: `About the ${siteConfig.siteName} software comparison project.`,
   path: "/about",
-  noIndex: true,
 });
 export default function AboutPage() {
   return (

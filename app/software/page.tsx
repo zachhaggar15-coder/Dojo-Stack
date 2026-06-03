@@ -4,7 +4,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { SoftwareDirectory } from "@/components/software/SoftwareDirectory";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { absoluteUrl, createPageMetadata, shouldNoIndexSoftware } from "@/lib/seo";
+import { absoluteUrl, createPageMetadata } from "@/lib/seo";
 import { getAllSoftware } from "@/lib/software";
 
 export const metadata: Metadata = createPageMetadata({
@@ -12,7 +12,6 @@ export const metadata: Metadata = createPageMetadata({
   description:
     "Browse and filter martial arts gym software by discipline, gym size, payments, booking, attendance, waivers, reporting, mobile app support, free trials, and pricing signals.",
   path: "/software",
-  noIndex: getAllSoftware().every(shouldNoIndexSoftware),
 });
 export default function SoftwareDirectoryPage() {
   const items = getAllSoftware();

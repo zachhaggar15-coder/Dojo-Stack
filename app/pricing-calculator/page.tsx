@@ -10,7 +10,6 @@ export const metadata: Metadata = createPageMetadata({
   description:
     "Estimate broad gym software cost bands in GBP based on members, staff, locations, features, and budget sensitivity. Use it as planning guidance, not exact provider pricing.",
   path: "/pricing-calculator",
-  noIndex: true,
 });
 export default function PricingCalculatorPage() {
   return (

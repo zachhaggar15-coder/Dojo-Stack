@@ -11,7 +11,6 @@ export const metadata: Metadata = createPageMetadata({
   title: "Contact",
   description: `Contact ${siteConfig.siteName} for corrections, software provider updates, and general questions.`,
   path: "/contact",
-  noIndex: siteConfig.launchSafety.hasPlaceholderContactEmail,
 });
 const contactSections = [
   {

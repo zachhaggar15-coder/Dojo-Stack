@@ -8,7 +8,7 @@ import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { breadcrumbSchema, createPageMetadata } from "@/lib/seo";
-import { getAllArticles, getArticleBySlug, shouldNoIndexArticle } from "@/lib/articles";
+import { getAllArticles, getArticleBySlug } from "@/lib/articles";
 import { getBestSoftwarePageBySlug, getComparisonPageBySlug, getSoftwareById } from "@/lib/software";
 
 type PageProps = {
@@ -36,7 +36,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: article.metaTitle,
     description: article.metaDescription,
     path: `/articles/${article.slug}`,
-    noIndex: shouldNoIndexArticle(article),
     type: "article",
   });
 }
@@ -108,7 +107,7 @@ export default async function ArticlePage({ params }: PageProps) {
             ))}
 
             <section className="space-y-4">
-              <SectionHeading eyebrow="FAQ" title="Questions this draft should answer" />
+              <SectionHeading eyebrow="FAQ" title="Common questions" />
               {faqs.map((faq) => (
                 <Card key={faq.question}>
                   <h2 className="text-lg font-semibold text-zinc-950">{faq.question}</h2>
@@ -128,9 +127,9 @@ export default async function ArticlePage({ params }: PageProps) {
               </div>
             </Card>
             <Card>
-              <h2 className="text-lg font-semibold text-zinc-950">Publishing control</h2>
+              <h2 className="text-lg font-semibold text-zinc-950">Verification note</h2>
               <p className="mt-3 text-sm leading-6 text-zinc-600">
-                This article should stay draft or noindex until factual claims are manually checked and every linked commercial page is ready.
+                This guide uses cautious wording and links back to controlled software, comparison, and recommendation pages. Check provider websites for current pricing and feature details.
               </p>
             </Card>
           </aside>

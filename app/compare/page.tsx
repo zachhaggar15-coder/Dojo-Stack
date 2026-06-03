@@ -9,7 +9,6 @@ export const metadata: Metadata = createPageMetadata({
   title: "Software Comparisons",
   description: "Side-by-side comparison templates for martial arts gym software.",
   path: "/compare",
-  noIndex: comparisonPages.every((page) => page.publishStatus !== "published"),
 });
 export default function CompareIndexPage() {
   return (

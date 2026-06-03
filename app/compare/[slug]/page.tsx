@@ -60,7 +60,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: page.metaTitle,
     description: page.metaDescription,
     path: `/compare/${page.slug}`,
-    noIndex: page.publishStatus !== "published",
     type: "article",
   });
 }

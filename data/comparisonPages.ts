@@ -41,7 +41,7 @@ export const comparisonPages: ComparisonPage[] = [
       "You need verified public pricing before speaking with vendors.",
       "Belt tracking or family-account workflows are non-negotiable and not yet confirmed.",
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -67,7 +67,7 @@ export const comparisonPages: ComparisonPage[] = [
       "You need confirmed belt tracking, waiver handling, or country support before choosing.",
       "You want a platform with verified pricing, contract terms, and public documentation already checked.",
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -93,7 +93,7 @@ export const comparisonPages: ComparisonPage[] = [
       "Your school needs martial-arts-first rank tracking and attendance workflows.",
       "You want verified public pricing before narrowing the shortlist.",
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -119,7 +119,7 @@ export const comparisonPages: ComparisonPage[] = [
       "You need confirmed martial arts belt tracking before shortlisting either platform.",
       "You need multi-location controls or enterprise workflows that are not yet verified in the data model.",
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
   {
@@ -145,7 +145,7 @@ export const comparisonPages: ComparisonPage[] = [
       "You need verified public pricing, contract terms, or migration details before choosing.",
       "You need confirmed belt tracking and martial arts-specific family workflows.",
     ],
-    publishStatus: "noindex",
+    publishStatus: "published",
     lastUpdated: "2026-05-27",
   },
 ];

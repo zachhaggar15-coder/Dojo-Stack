@@ -9,9 +9,8 @@ import { getAllArticles } from "@/lib/articles";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Supporting Articles",
-  description: "Draft supporting content for martial arts gym software research, linked to software, comparison, quiz, and best-software pages.",
+  description: "Supporting content for martial arts gym software research, linked to software, comparison, quiz, and best-software pages.",
   path: "/articles",
-  noIndex: true,
 });
 
 export default function ArticlesPage() {
@@ -22,8 +21,8 @@ export default function ArticlesPage() {
       <SectionHeading
           showLogo
         eyebrow="Supporting content"
-        title="Controlled article drafts"
-        description="These articles support commercial decision pages. Drafts are noindexed until manually reviewed and intentionally published."
+        title="Software research articles"
+        description="These articles support the software directory, comparison pages, recommendation quiz, and best-software guides."
       />
       <div className="grid gap-5 md:grid-cols-2">
         {articles.map((article) => (
